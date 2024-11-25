@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "League Spartan";
+}
+body{
+    font-size: 62.5%;
+    width: 100%;
+}
+
+.section-one{
+    background-image: url(img/hero-bg-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 820px;
+}
+.logo{
+    margin-top: 65px;
+    margin-left: 167px;
+}
+.hero{
+    color: white;
+    margin-left: 165px;
+    margin-top: 153px;
+}
+.hero h1{
+    font-weight: 300;
+    font-size: 80px;
+    color: white;
+    width: 508px;
+    margin-bottom: 10px;
+}
+.hero p{
+    width: 445px;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 40px;
+    line-height: 30px;
+}
+.btn{
+    width: 245px;
+    height: 64px;
+    background-color: inherit;
+    border: white 1px solid;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    letter-spacing: 3px;
+    &:hover{
+        color: black;
+        background-color: white;
+        transition: all 1.3s;
+    }
+}
+.footer-top{
+    margin-top: 100px;     /*  del */
+    background-image: url(/img/Bitmap.png);
+    height: 240px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.footer-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:#111111;
+    height: 240px;
+
+    
+}
+.footer-bottom ul{
+    letter-spacing: 2px;
+    color: white;
+    list-style: none;
+    line-height: 28px;
+}
+.sectinon-two{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sectinon-two div h2{
+    margin-top: 55px;
+    margin-bottom: 27px;
+    font-size: 48px;
+    width: 415px;
+    letter-spacing: -0.5px;
+}
+.sectinon-two div img{
+    margin-top: -70px;
+    border-radius: 2px;
+    margin-right: 125px;
+}
+.sectinon-two div p{
+    font-size: 2em;
+    width: 445px;
+    line-height: 30px;
+}
+.section-three{
+    display: flex;
+}
+.section-three{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.section-three div h2{
+    font-size: 4.8em;
+    width: 445px;
+    margin-top: 55px;
+    margin-bottom: 27px;
+    line-height: 48px;
+}
+.section-three div p{
+    width: 445px;
+    font-size: 2em;
+    line-height: 30px;
+}
+.section-four{
+    background-color: #111111;
+    color: white;
+    height: 761px;
+    display: flex;
+     align-items: center;  /*del */
+     justify-content: space-around;
+}
+.initem{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.textes h1{
+    width: 445px;
+    font-size: 48px;
+    letter-spacing: -0.5px;
+    margin-top: 55px;
+    margin-bottom: 27px;
+}
+.textes p{
+    font-size: 2em;
+    width: 445px;
+    line-height: 30px;
+}
+.bottom{
+    margin-bottom: -70px;
+    border-radius: 2px;
+}
+hr{
+    margin-top: 24px;
+    margin-bottom: 24px;
+
+}
+.box{
+    font-size: 2em;
+}
+.space p{
+    margin-top: 6px;
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 16px;
+    width: 350px;
+}
+.section-five{
+    margin-top: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.last h1{
+    font-size: 4.8em;
+    letter-spacing: -0.5px;    
+    margin-bottom: 19px;
+}
+.last p{
+    font-size: 2em;
+    line-height: 30px;
+    width: 445px;
+    margin-bottom: 60px;
+}
+ul{
+    list-style: none;
+    margin-top: 79px;
+    font-size: 17px;
+    
+}
+.item-1{
+    color: #2c2c2c;
+    margin-bottom: 12px;
+    letter-spacing: 2.5px;
+    font-weight: 600;
+}
+.item-2{
+    color: #414141;
+    margin-bottom: 12px;
+    letter-spacing: 2.5px;
+    font-weight: 600;
+}
+.item-3{
+    color: #4C4C4C;
+    letter-spacing: 2.5px;
+    font-weight: 600;
+}
+.btns{
+    background-color: #111111;
+    color: white;
+    width: 245px;
+    height: 64px;
+    border: none;
+    letter-spacing: 2px;
+}
